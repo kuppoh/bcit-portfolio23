@@ -1,0 +1,234 @@
+body {
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.welcome {
+    position: relative;
+    text-align: center;
+
+}
+
+.welcome img {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 220%;
+
+}
+
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    margin-top: -0.5%;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+
+    float: right;
+    padding: 1.5%;
+    text-align: center;
+   
+}
+
+.navbar div {
+    float: left;
+    color: white;
+    font-size: x-large;
+    padding: 1.5%;
+}
+
+.navbar a:hover{
+    color: black;
+    background-color: #404040;
+}
+
+#AboutMe img {
+    width: 45%;
+    height: 45%;
+    border-radius: 5%;
+    
+}
+
+#AboutMe .context {
+    margin-left: 2%;
+}
+
+.context {
+    margin-left: 3%;
+}
+
+.context h1 {
+    font-size: 350%;
+    margin: 0%;
+    text-align: center;
+    
+}
+
+.context h2 {
+    font-size: 250%;
+    margin: 0%;
+    text-align: left;
+}
+
+.context p {
+    margin: 0%;
+}
+
+.context div {
+    margin: 0%;
+}
+
+
+.images {
+    width: 30%;
+    height: 30%;
+    border-radius: 5%;
+
+}
+
+#AboutMe {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+}
+
+#JobTitle {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    flex-direction: row-reverse;
+}
+
+
+#PrevExp {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    flex-direction: row;
+}
+
+#PrevEdu {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    flex-direction: row;
+}
+
+#CurrentEdu {
+    display: flex;
+    align-items: center;
+    margin: 3%;
+    flex-direction: row-reverse;
+}
+
+#Blogs .context {
+    margin: 1%;
+}
+
+.linkedimages {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#Blogs img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+#Blogs a {
+    text-decoration: none;
+    margin: 1%;
+}
+
+#Blogs a:hover {
+    opacity: 0.7;
+}
+
+
+#Socials {
+    background-color: grey;
+}
+
+#Socials img {
+    width: 25%;
+}
+
+#Socials a {
+    text-decoration: none;
+}
+
+#Socials a:hover {
+    opacity: 0.5;
+}
+
+.linked {
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.centeredtext {
+    text-align: center;
+    font-size: 165%;
+}
+
+#blogpage {
+    display: flex;
+    margin: 3%;
+    align-items: center;
+}
+
+.prevnext {
+    margin: 5%;
+    font-size: 125%;
+}
+
+
+.prevnext a.next {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    padding: 1%;
+    float: right;
+}
+
+.prevnext a.prev {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    padding: 1%;
+    float: left;
+}
+
+
+.linktoblogpage {
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+
+}
+
+.linktoblogpage:hover {
+    color:grey;
+}
